@@ -1,6 +1,6 @@
 from ninja import Schema
 
-class UserRegisterRequest(Schema):
+class CustomerRegisterRequest(Schema):
     username: str
     password: str
     email: str
